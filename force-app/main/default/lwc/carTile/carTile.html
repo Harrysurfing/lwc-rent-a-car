@@ -1,0 +1,8 @@
+<template>
+  <a onclick={handleCarSelect}>
+    <div class={isCarSelected}>
+      <img src={car.Picture__c} class="car slds-align_abosolute-center" />
+      <div class="title slds-align_abosolute-center">{car.Contact__r.Name}</div>
+    </div>
+  </a>
+</template>
